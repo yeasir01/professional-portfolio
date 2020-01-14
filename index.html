@@ -3,59 +3,123 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Welcome | Yeasir Hugais</title>
+    <title>Portfolio Site | Yeasir H.</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="74">
     <header>
-        <nav id="navbar">
-            <div class="nav-flex n-container">
-                <div class="logo">
-                    <i class="fas fa-code"></i>
+        <nav id="navbar-example2" class="fixed-top navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Dev_</a>
+                <button class="navbar-toggler rounded-0 ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link rounded-0" href="#home">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-0" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-0" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-0" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div id="home" class="hero-bg">
-            <section class="m-container flex-hero">
-                <div class="hero-elements">
-                    <p>hay there!</p>
-                    <h2>i am yeasir</h2>
-                    <p>a full stack web developer</p>
-                    <a href="#" class="hero-button">Hire Me</a>
+        <div id="home" class="landing bg-grey">
+            <div class="container">
+                <div class="row min-vh-100">
+                    <div class="col-md-8 col-sm-12 my-auto">
+                        <div class="landing-content">
+                            <p class="text-uppercase mb-1">hay there!</p>
+                            <h2 class="text-uppercase mb-1">i am yeasir</h2>
+                            <p class="text-uppercase mb-4">a full stack web developer</p>
+                            <a class="btn btn-outline-dark rounded-0 text-uppercase px-4" href="#contact"
+                                role="button">hire me</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 my-auto">
+                        <div class="landing-content">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"
+                                data-interval="3000">
+                                <div class="carousel-inner text-center">
+                                    <div class="carousel-item active">
+                                        <i class="fab fa-js carousel-icon d-block w-100"></i>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <i class="fab fa-css3-alt carousel-icon d-block w-100"></i>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <i class="fas fa-server carousel-icon d-block w-100"></i>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <i class="fab fa-html5 carousel-icon d-block w-100"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero-icon">
-                    <i class="fab fa-js heroSlides"></i>
-                    <i class="fab fa-css3-alt heroSlides"></i>
-                    <i class="fab fa-html5 heroSlides"></i>
-                    <i class="fas fa-database heroSlides"></i>
-                </div>
-            </section>
+            </div>
         </div>
-        <section id="about-me" class="m-container e2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam modi architecto iure est? Molestiae
-                earum sunt, saepe quas unde hic, iusto, in nostrum voluptates aspernatur illo. Enim quos quibusdam
-                accusamus.</p>
-        </section>
+        <div id="about" class="min-vh-100">
+            <div class="container">
+                <div class="row min-vh-100">
+                    <div class="col my-auto">
+                        <img src="./assets/images/my_photo.png" alt="a photo of yeasir" class="my-img img-thumbnail float-left mr-5">
+                        <h2>A little about me...</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat nobis earum
+                            dignissimos natus recusandae? At alias provident eum rerum numquam blanditiis, laborum
+                            aspernatur labore vel. Saepe magnam magni autem.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat nobis earum
+                            dignissimos natus recusandae? At alias provident eum rerum numquam blanditiis, laborum
+                            aspernatur labore vel. Saepe magnam magni autem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio" class="min-vh-100 bg-grey">
+            <div class="container">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+        <div id="contact" class="min-vh-100">
+            <div class="container">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
     </main>
-
     <footer>
 
     </footer>
-    <script src="./assets/js/script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>

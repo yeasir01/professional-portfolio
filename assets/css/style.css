@@ -1,126 +1,49 @@
-/* Global CSS */
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: #333;
-}
-
-.m-container {
-    max-width: 960px;
-    margin: auto;
-}
-
-.n-container {
-    max-width: 960px;
-    margin: auto;
-}
-
-/* Navbar */
-
-#navbar {
-    position: fixed;
-    height: 60px;
-    width: 100%;
-    z-index: 1;
-}
-
-#navbar.scroll {
-    transition: linear .5s;
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    color: #eef;
-}
-
-.nav-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.logo {
-    font-size: 2rem;
-    color: rgba(51, 51, 51, 0.685);
-}
-
-.nav a {
-    color: #333;
-    padding: 10px;
-}
-
-.nav a:hover {
-    transition: 0.5s linear;
-    color: #fff;
-    background-color: #333; 
-}
-
-.nav li {
-    margin-right: 10px;
-    font-size: 1.2rem;
-    display: inline;
-}
-
-.nav li:last-child {
-    margin-right: -10px;
-}
-
-/* hero element */
-
-.hero-bg {
-    background-color: #ededed;
-    min-height: 100vh;
-    min-width: 100%;
+    font-weight: 400;
     position: relative;
 }
 
-.flex-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+.bg-grey {
+    background-color: #ededed;
 }
 
-.hero-elements {
-    color: #333;
-    text-transform: uppercase;
+.nav-link {
+    font-size: 1.2rem;
 }
 
-.hero-icon {
+.carousel-icon {
     font-size: 14rem;
-    color: #424242;
 }
 
-.hero-elements p {
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.landing-content p {
     font-size: 1.7rem;
-    font-weight: 400;
+    line-height: 1;
     letter-spacing: 0.25rem;
 }
 
-.hero-elements h2 {
+.landing-content h2 {
     font-size: 4.5rem;
     font-weight: 900;
-    line-height: 1.1;
+    line-height: 1;
 }
 
-.hero-button {
-    display: block;
-    width: fit-content;
+.landing-content a {
     font-size: 1.25rem;
-    color: #333;
-    padding: 10px 25px;
+}
+
+.my-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
     border: 1px solid #333;
-    margin-top: 25px;
-}
-
-.hero-button:hover {
-    transition: 0.5s linear;
-    background-color: #333;
-    color: #fff;
-}
-
-.e2 {
-    height: 100vh;
 }
