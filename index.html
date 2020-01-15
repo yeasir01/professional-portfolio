@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Portfolio Site | Yeasir H.</title>
+    <title>Yeasir H. | Web Developer</title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example2" data-offset="74">
     <header>
-        <nav id="navbar-example2" class="fixed-top navbar navbar-expand-lg navbar-light bg-white">
+        <nav id="navbar-example2" class="fixed-top navbar navbar-expand-lg navbar-light ">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Dev_</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/images/hex_logo.png" width="36" height="40" alt="">
+                </a>
                 <button class="navbar-toggler rounded-0 ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -47,15 +49,15 @@
             <div class="container">
                 <div class="row min-vh-100">
                     <div class="col-md-8 col-sm-12 my-auto">
-                        <div class="landing-content">
-                            <p class="text-uppercase mb-1">hay there!</p>
-                            <h2 class="text-uppercase mb-1">i am yeasir</h2>
-                            <p class="text-uppercase mb-4">a full stack web developer</p>
+                        <div class="landing-content text-center text-lg-left">
+                            <p class="text-uppercase mb-1">Hey there!</p>
+                            <h2 class="text-uppercase mb-1">I'm yeasir</h2>
+                            <p class="text-uppercase mb-4">A Full Stack Web Developer</p>
                             <a class="btn btn-outline-dark rounded-0 text-uppercase px-4" href="#contact"
-                                role="button">hire me</a>
+                                role="button">let's talk</a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 my-auto">
+                    <div class="col-md-4 col-sm-12 my-auto d-none d-md-block">
                         <div class="landing-content">
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"
                                 data-interval="3000">
@@ -79,11 +81,14 @@
                 </div>
             </div>
         </div>
+
         <div id="about" class="min-vh-100">
             <div class="container">
                 <div class="row min-vh-100">
-                    <div class="col my-auto">
-                        <img src="./assets/images/my_photo.png" alt="a photo of yeasir" class="my-img img-thumbnail float-left mr-5">
+                    <div class="col-lg-4 col-md-4 col-sm-12 my-auto text-center">
+                        <img src="./assets/images/my_photo.png" alt="a photo of yeasir" class="my-img">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 my-auto text-lg-left">
                         <h2>A little about me...</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quaerat nobis earum
                             dignissimos natus recusandae? At alias provident eum rerum numquam blanditiis, laborum
@@ -95,11 +100,55 @@
                 </div>
             </div>
         </div>
+
         <div id="portfolio" class="min-vh-100 bg-grey">
             <div class="container">
-                <h2>Portfolio</h2>
+                <div class="row">
+                    <div class="col text-center text-lg-left">
+                        <h1 class="font-weight-light mt-4 mb-3">My Work</h1>
+                    </div>
+                </div>
+                <div class="row text-center text-lg-left">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div id="contact" class="min-vh-100">
             <div class="container">
                 <h2>Contact Me</h2>
@@ -109,7 +158,7 @@
     <footer>
 
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
