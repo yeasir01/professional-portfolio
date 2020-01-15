@@ -9,15 +9,19 @@ body {
 }
 
 .bg-grey {
-    background-color: #ededed;
+    background-color: #f4f4f4;
 }
 
 .nav-link {
     font-size: 1.2rem;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
 .carousel-icon {
-    font-size: 14rem;
+    font-size: 15rem;
 }
 
 .navbar-brand {
@@ -25,25 +29,32 @@ body {
 }
 
 .landing-content p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 1;
     letter-spacing: 0.25rem;
 }
 
 .landing-content h2 {
-    font-size: 4.5rem;
+    font-size: 4.3rem;
     font-weight: 900;
     line-height: 1;
 }
 
 .landing-content a {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
 }
 
 .my-img {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid #333;
+    padding: 3px;
+}
+
+#portfolio {
+    background: url(../images/cubes-bg.png);
+    background-attachment: fixed;
+    background-position: center;
 }
