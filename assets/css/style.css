@@ -9,7 +9,7 @@ body {
 }
 
 .bg-grey {
-    background-color: #f4f4f4;
+    background-color: #eee;
 }
 
 .nav-link {
@@ -45,16 +45,21 @@ body {
 }
 
 .my-img {
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid #333;
-    padding: 3px;
+    padding: 10px;
+}
+
+.so-icon {
+    font-size: 2.1rem;
+    margin-right: 10px;
 }
 
 #portfolio {
-    background: url(../images/cubes-bg.png);
+    background: url(../images/shattered-bg.png);
     background-attachment: fixed;
     background-position: center;
 }
