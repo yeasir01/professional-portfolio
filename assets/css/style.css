@@ -6,10 +6,12 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     position: relative;
+    color: #1c1c1c;
 }
 
-.bg-grey {
+.bg-hero {
     background-color: #eee;
+
 }
 
 .nav-link {
@@ -17,11 +19,8 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
+    color: #1abc9c;
     font-weight: 500;
-}
-
-.carousel-icon {
-    font-size: 15rem;
 }
 
 .navbar-brand {
@@ -44,22 +43,58 @@ body {
     font-size: 1.20rem;
 }
 
-.my-img {
+.about-cir {
     width: 220px;
     height: 220px;
+    background-color: #16a085;
+    color: #fff;
     border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid #333;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-cir h2 {
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 .so-icon {
     font-size: 2.1rem;
     margin-right: 10px;
+    color: #16a085 !important;
+}
+
+.so-icon:hover {
+    color: #1abc9c !important;
 }
 
 #portfolio {
-    background: url(../images/shattered-bg.png);
+    background: #ECEBE4;
+    background-image: url(../images/rough_diagonal.png);
     background-attachment: fixed;
-    background-position: center;
+}
+
+.btn {
+    background-color: #16a085;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color:#1abc9c;
+}
+
+.footer {
+    background-color: #444;
+}
+
+.footer-link {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #20dbb6;
 }
