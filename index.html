@@ -16,7 +16,7 @@
 <body data-spy="scroll" data-target="#navbar-example2" data-offset="74">
     <header>
         <nav id="navbar-example2" class="fixed-top navbar navbar-expand-lg navbar-light ">
-            <div class="container">
+            <div class="container-fluid px-4">
                 <a class="navbar-brand" href="index.html">
                     <img src="./assets/images/hex_logo.png" width="36" height="40" alt="">
                 </a>
@@ -45,54 +45,36 @@
         </nav>
     </header>
     <main>
-        <div id="home" class="landing bg-grey">
-            <div class="container">
+        <div id="home" class="bg-hero">
+            <div class="container-fluid pr-0 overflow-hidden">
                 <div class="row min-vh-100">
-                    <div class="col-md-8 col-sm-12 my-auto">
-                        <div class="landing-content text-center text-md-left text-lg-left">
+                    <div class="col-md-6 col-sm-12 my-auto">
+                        <div class="landing-content text-center">
                             <p class="text-uppercase mb-1">Hey there!</p>
                             <h2 class="text-uppercase mb-1">I'm yeasir</h2>
                             <p class="text-uppercase mb-4">A Full Stack Web Developer</p>
-                            <a class="btn btn-outline-dark rounded-0 text-uppercase px-4" href="#contact"
-                                role="button">let's talk</a>
+                            <a class="btn btn-outline-dark rounded-sm text-uppercase px-4 py-2" href="#portfolio"
+                                role="button">view work</a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 my-auto d-none d-md-block">
-                        <div class="landing-content">
-                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"
-                                data-interval="3000">
-                                <div class="carousel-inner text-center">
-                                    <div class="carousel-item active">
-                                        <i class="fab fa-js carousel-icon d-block w-100"></i>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <i class="fab fa-css3-alt carousel-icon d-block w-100"></i>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <i class="fab fa-node-js carousel-icon d-block w-100"></i>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <i class="fab fa-html5 carousel-icon d-block w-100"></i>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <i class="fas fa-database carousel-icon d-block w-100"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-6 text-right my-auto pt-5 d-none d-md-block">
+                            <img src="./assets/images/feature-img.png" alt="laptop with vs code displayed"
+                                class="feature-img img-fluid ">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="about" class="min-vh-100">
+        <div id="about" class="min-vh-100 my-5">
             <div class="container">
                 <div class="row min-vh-100">
-                    <div class="col-lg-4 col-md-4 col-sm-12 my-auto text-center">
-                        <img src="./assets/images/user.png" alt="a photo of yeasir" class="my-img">
+                    <div class="col-lg-3 col-md-4 col-sm-12 my-auto p-0">
+                        <div class="container about-cir">
+                            <h2>about.</h2>
+                        </div>
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 my-auto text-center text-md-left text-lg-left">
-                        <h2>A little about myself...</h2>
+                    
+                    <div class="col-lg-9 col-md-8 col-sm-12 my-auto text-center text-md-left text-lg-left border-left pl-4">
                         <p>Technology has always been an integral part of my life and has served as a personal passion
                             of mine. As a child, I would always
                             take things apart and attempt to put them back together (sometimes unsuccessfully) - in
@@ -104,15 +86,15 @@
                             I am now focusing on learning code, so that I may use those skills to develop custom
                             software and applications that could be used for my current and future business
                             opportunities.</p>
-                        <a href="https://github.com/yeasir01"><i class="fab fa-github so-icon text-dark"></i></a>
+                        <a target="_blank" href="https://github.com/yeasir01"><i class="fab fa-github so-icon text-dark"></i></a>
                         <a href="#"><i class="fab fa-linkedin so-icon text-dark"></i></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="portfolio" class="min-vh-100 bg-grey">
-            <div class="container">
+        <div id="portfolio" class="min-vh-100 d-flex">
+            <div class="container align-self-center">
                 <div class="row">
                     <div class="col text-center">
                         <h1 class="font-weight-light mt-4 mb-3">Portfolio</h1>
@@ -121,52 +103,125 @@
                 <div class="row text-center text-lg-left">
                     <div class="col-lg-4 col-md-6 col-12">
                         <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300"
-                                alt="">
+                            <img class="img-fluid img-thumbnail" src="./assets/images/pass-gen.png"
+                                alt="password generator">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300"
-                                alt="">
+                            <img class="img-fluid img-thumbnail" src="http://holder.ninja/400x300.svg" alt="">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300"
-                                alt="">
+                            <img class="img-fluid img-thumbnail" src="http://holder.ninja/400x300.svg" alt="">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300"
-                                alt="">
+                            <img class="img-fluid img-thumbnail" src="http://holder.ninja/400x300.svg" alt="">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300"
-                                alt="">
+                            <img class="img-fluid img-thumbnail" src="http://holder.ninja/400x300.svg" alt="">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
                         <a href="#" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300"
-                                alt="">
+                            <img class="img-fluid img-thumbnail" src="http://holder.ninja/400x300.svg" alt="">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="contact" class="min-vh-100">
-            <div class="container">
-                <h2>Contact Me</h2>
+        <div id="contact" class="min-vh-100 d-flex">
+            <div class="container align-self-center">
+                <div class="row my-3">
+                    <div class="col-12">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <form id="contact-form" method="post" action="contact.php">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Firstname *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control rounded-0"
+                                        placeholder="" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control rounded-0"
+                                        placeholder="" required="required" data-error="Lastname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control rounded-0"
+                                        placeholder="" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_need">Please specify your needs *</label>
+                                    <select id="form_need" name="need" class="form-control rounded-0"
+                                        required="required" data-error="Please specify your need.">
+                                        <option value=""></option>
+                                        <option value="Request quotation">Request quotation</option>
+                                        <option value="Request order status">Request order status</option>
+                                        <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control rounded-0"
+                                        placeholder="" rows="4" required="required"
+                                        data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-send btn-dark rounded-sm text-uppercase px-4 py-2"
+                                    value="Send message">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <p class="text-muted">
+                                    <strong>*</strong> fields are required.
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </div>
     </main>
-    <footer>
-
+    <footer class="footer mt-auto py-3 text-center">
+        <div class="container">
+            <span class="text-white">Developed By <a href="index.html" class="footer-link">Yeasir H.</a></span>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
